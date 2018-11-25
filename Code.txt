@@ -1,29 +1,29 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
- # от 1799 до 1837 сделать 5 точек.
+ # from 1799 to 1837 make 5 points.
 x = np.linspace(1799, 1837, 5)
 
- # y - линия графика
+ # y-line chart
 y = 1
 
- # будет 1 график, на нем линия
+ # 1 is a graph in this line
 fig, ax = plt.subplot()
 
- # функция y(x)
+ # function y(x)
 ax.plot(x, y1, color="black", label="черная линия")
 
- # подпись у горизонтальной оси х
+ # signature on horizontal x-axis
 ax.set_xlabel("x")
 
- # подпись у вертикальной оси y
+ # signature vertical y-axis
 ax.set_ylabel("y")
 
- # показывать условные обозначения
+ # show legend
 ax.legend()
 
- #сохранить в файл 1.png
+ # save to file 1.png
 fig.savefig('1.png')
 
- # показать рисунок
+ # show a picture
 plt.show()
