@@ -8,10 +8,10 @@ x = np.linspace(1799, 1837, 5)
 y = 1
 
  # 1 is a graph in this line
-fig, ax = plt.subplot()
+ax = plt.subplot()
 
  # function y(x)
-ax.plot(x, y1, color="black", label="черная линия")
+ax.plot(x, y, color="black", label="black line")
 
  # signature on horizontal x-axis
 ax.set_xlabel("x")
